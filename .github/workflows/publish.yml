@@ -19,4 +19,4 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
-          script: cd ${{ secrets.PROJECT_PATH }} && rm -rf ./gukazma.github.io && git clone https://github.com/gukazma/gukazma.github.io.git -b master
+          script: cd ${{ secrets.PROJECT_PATH }} && rm -rf ./gukazma.github.io && git clone https://github.com/gukazma/gukazma.github.io.git -b master && docker compose restart
