@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_begin=self.webpackChunkgatsby_begin||[]).push([[795],{5864:function(e,n,a){a.r(n),a.d(n,{default:function(){return l}});var t=a(7294);var r=e=>t.createElement("p",null,"Hi ",e.name,"!");var l=()=>t.createElement("div",null,t.createElement(r,{name:"Megan"}),t.createElement(r,{name:"Obinna"}),t.createElement(r,{name:"Generosa"}))}}]);
+//# sourceMappingURL=component---src-pages-say-hello-js-8e6bc3b02d0af85e65a3.js.map
